@@ -6,7 +6,7 @@ def run_train():
 
     # 2. Eğitimi başlat
     model.train(
-        data="data/data.yaml", # Ayar dosyamız
+        data="../data/data.yaml", # Ayar dosyamız
         epochs=50,             # Kaç tur döneceği 
         imgsz=640,             # Resim boyutu
         batch=8,              # Aynı anda işlenecek resim sayısı
