@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+venv/
+env/
+.env
+
+# Project Specific
+data/train/
+data/valid/
+data/test/
+runs/
+*.pt
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db
