@@ -13,7 +13,7 @@ def run_train():
         name="car_damage_v8",  # Çıktı klasörünün adı
         device=0 ,# Ekran kartın varsa 0
         workers=0,
-        name="hasar_tespit_ilk_deneme"
+    
     )
 
 if __name__ == "__main__":
